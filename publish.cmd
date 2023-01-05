@@ -1,0 +1,1 @@
+dotnet publish --sc -a arm --os linux -o published
