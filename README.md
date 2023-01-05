@@ -2,11 +2,11 @@
 
 ## Integration
 
-In bpq32.cfg, you need a Telnet port. Note its PORTNUM.
+In bpq32.cfg, define a Telnet port if you don't have one already. Note its `PORTNUM`.
 
-Within your Telnet port, you need a CONFIG section.
+Within your Telnet port definition, define a `CONFIG` section.
 
-Within the Config section, have a CMDPORT line.
+Within the `CONFIG` section, have a `CMDPORT` line:
 
 ```
 PORT
