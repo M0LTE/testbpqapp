@@ -1,5 +1,11 @@
 # testbpqapp
 
+A repo containing the simplest possible BPQ app in C#, plus the simplest way I've found to integrate it with BPQ.
+
+This recipe will create an interactive text based application which a packet user can access by connecting to your node over the air and typing a command.
+
+This can be the basis for much greater things.
+
 ## Integration
 
 In bpq32.cfg, define a Telnet port if you don't have one already. Note its `PORTNUM`.
